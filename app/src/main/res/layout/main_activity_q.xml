@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RK INDUSTRIES"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/img"
+        android:id="@+id/txtLayoutHeader"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rkindustries10@gail.com"
+        android:id="@+id/txtLayoutSubHeader"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:layout_below="@id/txtLayoutHeader"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="91 8602911525"
+        android:id="@+id/txtLayoutSubHeader2"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_toRightOf="@id/img"
+        android:layout_below="@id/txtLayoutSubHeader"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:id="@+id/img"
+        android:src="@drawable/rk_industries"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#1565c0"
+        android:layout_below="@id/img"
+        android:layout_gravity="center"
+        android:id="@+id/btn"
+        android:textSize="18sp"
+        android:text="More Information"
+        android:textStyle="bold"/>
+
+
+
+
+</RelativeLayout>

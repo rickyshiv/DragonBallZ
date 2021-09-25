@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/Orange"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtMAIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:text="Dragon Ball Z"
+                android:textColor="#F4EEE8"
+                android:textSize="55sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacerone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtMAIN" />
+
+            <TextView
+                android:id="@+id/txtSUB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerone"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="I am your favourite vegeta"
+                android:textColor="#66DE93"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imgONE"
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/txtSUB"
+                android:layout_centerInParent="true"
+                android:src="@drawable/vegeta" />
+
+
+            <TextView
+                android:id="@+id/txtADD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgONE"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Vegeta is a slim yet very well-built man of a below-average stature, standing at 164 centimeters tall. His hair is black (or dark brown, depending on the media) and spikes upwards. Vegeta has a prominent widow's peak. Like most Saiyans, he possesses defined eyes with a consistently stern look to them. Like other Universe 7 Saiyans, he was born with a prehensile brown-furred tail, until it was permanently cut off by Yajirobe.In Dragon Ball GT, Vegeta swaps out his armor in favor of clothing more characteristic to an Earthling, wearing a crimson tank top, violet gloves, dark blue jeans and violet boots along with a black leather vest. He also cropped his hair, which still spikes upward, and grew a mustache (albeit temporarily, as he shaves it off after Bulla mocks him for it)."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacerfive"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtADD" />
+
+
+
+            <TextView
+                android:id="@+id/txtalpha"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerfive"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Characters defeated by Vegeta:"
+                android:textColor="#F4EEE8"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacethree"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtalpha" />
+
+            <TextView
+                android:id="@+id/txtbeta"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacethree"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Prior Victims: Due to working in the Frieza Force, there's no doubt Vegeta killed off many other races and characters off-screen (likely along with Nappa and Raditz)."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacesix"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtbeta" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

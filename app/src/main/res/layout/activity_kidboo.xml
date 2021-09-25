@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtMAIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:text="Dragon Ball Z"
+                android:textColor="#F4EEE8"
+                android:textSize="55sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacerone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtMAIN" />
+
+            <TextView
+                android:id="@+id/txtSUB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerone"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="I am kid-Buu"
+                android:layout_centerHorizontal="true"
+                android:textColor="#66DE93"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imgONE"
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/txtSUB"
+                android:layout_centerInParent="true"
+                android:src="@drawable/kidboo" />
+
+
+            <TextView
+                android:id="@+id/txtADD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgONE"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Kid Buu , lit. is the original, pure form of Majin Buu. Unlike his other forms, this form of Buu's thought process is seen to be irrational and spontaneous, even destroying his own body to destroy the Earth. Although he appears smaller than any other form, he is more dangerous than any other forms of Buu due to his full relentless evil and unpredictability. He is also completely free of restraint and has no trace of sanity and, because of this, is extremely volatile. He retains his childish personality, becoming amused and laughing hysterically at his own destruction of entire worlds. He is the main antagonist for the Kid Buu Saga as well as the final antagonist of the Majin Buu Saga."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacerfive"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtADD" />
+
+
+
+            <TextView
+                android:id="@+id/txtalpha"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerfive"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Battles Played by Kid Boo:"
+                android:textColor="#F4EEE8"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacethree"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtalpha" />
+
+            <TextView
+                android:id="@+id/txtbeta"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacethree"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Kid Buu vs. Pikkon and Olibu (Anime only)
+ Kid Buu vs. Krillin (Anime only)
+ Kid Buu vs. Krillin and Yamcha (Anime only)
+ Kid Buu vs. Goku (Super Saiyan 2/Super Saiyan 3)
+ Kid Buu vs. Vegeta (Anime only)
+ Kid Buu vs. Goku (Base/Super Saiyan 3)
+ Kid Buu vs. Vegeta (Super Saiyan 2)
+ Kid Buu vs. Mr. Satan
+ Kid Buu vs. Good Buu
+ Kid Buu vs. Good Buu and Mr. Satan
+
+ Kid Buu vs. Vegeta
+ Kid Buu vs. Good Buu (Anime only)
+ Kid Buu vs. Goku (Base/Super Saiyan)"
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacesix"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtbeta" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

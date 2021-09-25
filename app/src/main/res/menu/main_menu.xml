@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/ic_about"
+            android:title="About us" />
+
+
+    </group>
+
+
+
+    <item android:title="Entertainment">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_live"
+                android:title="Music" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/videos"
+                android:title="Video Gallery" />
+            <item
+                android:id="@+id/gall"
+                android:icon="@drawable/ic_photogalery"
+                android:title="Photo Gallery" />
+            <item
+                android:id="@+id/nav_plane"
+                android:icon="@drawable/ic_game"
+                android:title="Games" />
+        </menu>
+    </item>
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Developers profile" />
+                <item
+                    android:id="@+id/nav_visitus"
+                    android:icon="@drawable/ic_us"
+                    android:title="visit us" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Log Out" />
+
+
+
+            </group>
+        </menu>
+    </item>
+</menu>

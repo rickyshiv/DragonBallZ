@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/Orange"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtMAIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:text="Dragon Ball Z"
+                android:textColor="#F4EEE8"
+                android:textSize="55sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacerone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtMAIN" />
+
+            <TextView
+                android:id="@+id/txtSUB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerone"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="I am your favourite saiyon Trunks"
+                android:textColor="#66DE93"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imgONE"
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/txtSUB"
+                android:layout_centerInParent="true"
+                android:src="@drawable/trunkskid" />
+
+
+            <TextView
+                android:id="@+id/txtADD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgONE"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Trunks is born in November of Age 766 to Vegeta and Bulma, thus making him a Saiyan and Human hybrid, like Gohan. He was an illegitimate child due to the fact that he was conceived as a result of a brief affair between his parents. In his infancy, he was well-loved and doted on by his mother, but it appeared as if his father had little to no parental emotions towards the boy due to the former never wanting to have children and viewing hybrids as a disgrace. However, after the end of the Cell Games, the relationship between his parents improved and they got married, and they began raising Trunks as a family."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacerfive"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtADD" />
+
+
+
+            <TextView
+                android:id="@+id/txtalpha"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerfive"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Characters defeated by Trunks :"
+                android:textColor="#F4EEE8"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacethree"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtalpha" />
+
+            <TextView
+                android:id="@+id/txtbeta"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacethree"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Mutchy - Killed by Trunks with a Brave Cannon while he was off guard.
+General Rilldo - Killed by the combined blast of Goku, Pan and Trunks.
+Yakon - Killed by Trunks with a sneak attack to save Goten.
+Android 19 - Destroyed by the combined ki blast of Trunks and Goten.
+Saibamen - Killed by the combined efforts of Trunks, Goten, and Majuub."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacesix"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtbeta" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

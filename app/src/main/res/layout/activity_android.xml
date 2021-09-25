@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtMAIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:text="Dragon Ball Z"
+                android:textColor="#F4EEE8"
+                android:textSize="55sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacerone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtMAIN" />
+
+            <TextView
+                android:id="@+id/txtSUB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerone"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="I am Android 18"
+                android:layout_centerHorizontal="true"
+                android:textColor="#66DE93"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imgONE"
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/txtSUB"
+                android:layout_centerInParent="true"
+                android:src="@drawable/androidt" />
+
+
+            <TextView
+                android:id="@+id/txtADD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgONE"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Android 18  when she was an ordinary human, is the twin sister of Android 17 and Dr. Gero's eighteenth android creation, designed to serve Gero's vendetta against Goku. While her interests do not initially deviate from this expectation, her curiosity to activate Android 16, in spite of Gero's orders not to do so, leads Android 17 to take it upon himself to murder Gero. Eventually, Android 18 becomes a member of the Z Fighters, as well as the wife of Krillin and the mother of their daughter Marron."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacerfive"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtADD" />
+
+
+
+            <TextView
+                android:id="@+id/txtalpha"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerfive"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Battles Played by Android 18:"
+                android:textColor="#F4EEE8"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacethree"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtalpha" />
+
+            <TextView
+                android:id="@+id/txtbeta"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacethree"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Android 18 vs. Vegeta (Super Saiyan)
+Android 18 and Android 17 vs. Vegeta (Super Saiyan), Future Trunks (Super Saiyan), Piccolo, and Tien Shinhan
+Android 18 and Android 17 vs. Biker gang (anime only)
+Android 18 and Android 17 vs. Goku, Future Trunks, Gohan, and Krillin (dream; anime only)
+Android 18, Krillin, and Android 16 vs. Cell (Semi-Perfect Form)
+Android 18 vs. Cell (Semi-Perfect Form)
+Android 18 vs. Krillin (Anime only)
+Android 18 vs. Jewel
+Android 18 vs. Mighty Mask (Trunks (Base/Super Saiyan) and Goten (Base/Super Saiyan))
+Android 18 vs. Mr. Satan"
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacesix"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtbeta" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

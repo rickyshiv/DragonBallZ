@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtMAIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:text="Dragon Ball Z"
+                android:textColor="#F4EEE8"
+                android:textSize="55sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacerone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtMAIN" />
+
+            <TextView
+                android:id="@+id/txtSUB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerone"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="I am Cell"
+                android:layout_centerHorizontal="true"
+                android:textColor="#66DE93"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imgONE"
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/txtSUB"
+                android:layout_centerInParent="true"
+                android:src="@drawable/cell" />
+
+
+            <TextView
+                android:id="@+id/txtADD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgONE"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Cell is an artificial life form (referred to as a) created by Doctor Gero's supercomputer from the cell sample of the universe's strongest warriors, possessing the genetic information of Goku, Vegeta, Piccolo, Frieza, King Cold and Tien Shinhan in an underground complex beneath Gero's secret laboratory. Cell is designed to evolve into the perfect being by absorbing two Androids, #17 and #18. The Cell that appears as the primary antagonist of his titular arc is from the future, awakening after his development is complete to find that the Androids have been destroyed by Trunks. After he kills Trunks, Cell uses his time machine while regressing into an egg to travel back four years, to before the androids appeared, arriving in the present timeline"
+
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacerfive"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtADD" />
+
+
+
+            <TextView
+                android:id="@+id/txtalpha"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerfive"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Battles Played by Cell:"
+                android:textColor="#F4EEE8"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacethree"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtalpha" />
+
+            <TextView
+                android:id="@+id/txtbeta"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacethree"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Future Trunks – Killed by Cell in another alternate timeline. Cell strangled him with his tail so he could steal his Time Machine.
+Earthlings – Thousands of people are killed when Cell blows up inhabited islands in search of Android 18 and many others were killed through absorption. He annihilated a quarter of a city when making his global broadcast about the Cell Games. He also killed many military soldiers in his first battle with Piccolo, and during the ten-day waiting period of the Cell Games. Though, they were later revived with the Dragon Balls.
+Richest man in Gingertown – Killed through absorption in front of Piccolo. He was revived with the Dragon Balls.
+ZTV reporter – Killed by Perfect Cell's ki blast.
+Android 16 – Body destroyed by Cell using a Ki blast, but his head was still functioning. 16 was utterly destroyed when Cell stomped on and crushed his head while 16 was speaking to Gohan, telling him to fight Cell, inducing Gohan's Super Saiyan 2 transformation. Android 16 may have been revived with the Dragon Balls, but he was never seen afterwards.
+Android 17 - Died while still inside of Cell when he self-destructed, after Goku teleported him to King Kai's planet.
+Goku – Killed when Cell self-destructed, after Goku teleported him to King Kai's planet. He was later revived when Elder Kai gave him his life 7 years later.
+King Kai – Killed when Cell self-destructed, after Goku teleported him to King Kai's planet.
+Bubbles – Killed when Cell self-destructed, after Goku teleported him to King Kai's planet.
+Gregory – Killed when Cell self-destructed, after Goku teleported him to King Kai's planet.
+Future Trunks – Killed by Cell with a Full Power Death Beam through the chest. He was later revived with the Dragon Balls."
+                android:textColor="#F4EEE8"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacesix"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtbeta" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

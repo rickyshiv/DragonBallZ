@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.activitylifecycle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ActivityLifecycle">
+        <activity android:name=".SpinnerExample">
+
+        </activity>
+
+        <activity android:name=".Movies" />
+        <activity android:name=".ProgressBar" />
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".MainActivity4" />
+        <activity
+            android:name=".FullScreen"
+            android:theme="@style/Theme.ActivityLifecycle1" />
+        <activity
+            android:name=".ImageAdapter"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".gallery">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".rossi" />
+        <activity android:name=".devlp" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".Music" />
+        <activity android:name=".dash" />
+        <activity android:name=".android" />
+        <activity android:name=".Kidboo" />
+        <activity android:name=".mazzin" />
+        <activity android:name=".Cooler" />
+        <activity android:name=".Cell" />
+        <activity android:name=".Frieza" />
+        <activity android:name=".Goten" />
+        <activity android:name=".FutureTrunks" />
+        <activity android:name=".Gohan" />
+        <activity android:name=".Vegeta" />
+        <activity android:name=".Goku" />
+        <activity android:name=".Villans" />
+        <activity android:name=".switchActivity" />
+        <activity android:name=".Trunkskid" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AvengersActivity" />
+        <activity android:name=".NewActivity" />
+    </application>
+
+</manifest>

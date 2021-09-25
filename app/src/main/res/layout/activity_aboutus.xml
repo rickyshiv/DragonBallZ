@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/blues"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/txtMAIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="About Us"
+                android:textColor="#F4EEE8"
+                android:textSize="55sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacerone"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_below="@+id/txtMAIN" />
+
+            <TextView
+                android:id="@+id/txtSUB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerone"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Our main motive is to bring back the Dragon Ball Z show in on-air because it is a very good show and we want that all the young childs will learn some ethics from Dbz."
+                android:layout_centerHorizontal="true"
+                android:textColor="#66DE93"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imgONE"
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/txtSUB"
+                android:layout_centerInParent="true"
+                android:src="@drawable/dbz2" />
+
+
+            <TextView
+                android:id="@+id/txtADD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgONE"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Introduction :"
+
+                android:textColor="#F4EEE8"
+                android:textSize="34sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:id="@+id/spacerfive"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtADD" />
+
+
+
+            <TextView
+                android:id="@+id/txtalpha"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacerfive"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="Dragon Ball Z (Japanese: ドラゴンボールZ, Hepburn: Doragon Bōru Zetto, commonly abbreviated as DBZ) is a Japanese anime television series produced by Toei Animation. It is the sequel to Dragon Ball and adapts the latter 325 chapters of the original 519-chapter Dragon Ball manga series created by Akira Toriyama which ran in Weekly Shōnen Jump from 1988 to 1995. Dragon Ball Z aired in Japan on Fuji TV from April 1989 to January 1996, before getting subtitled or dubbed in territories including the United States, Canada, Australia, Europe, Asia, India and Latin America. It was broadcast in at least 81 countries worldwide.[4] It is part of the Dragon Ball media franchise.
+
+Dragon Ball Z continues the adventures of Son Goku, who, along with his companions, defend the Earth against villains ranging from aliens (Vegeta, Frieza), androids (Cell) and magical creatures (Majin Buu). While the original Dragon Ball anime followed Goku from childhood to early adulthood, Dragon Ball Z is a continuation of his adult life, but at the same time parallels the life of his son, Gohan, as well as the development of his rivals, Piccolo and Vegeta.
+
+Due to the success of the anime in the United States, the manga chapters making up its story were initially released by Viz Media under the Dragon Ball Z title. Dragon Ball Z's popularity has spawned numerous releases which have come to represent the majority of content in the Dragon Ball franchise; including 16 movies, 2 TV specials, and 148 video games (many of them being only released in Japan), and a host of soundtracks stemming from this material. Dragon Ball Z remains a cultural icon through numerous adaptations and re-releases, including a more-recent remastered broadcast titled Dragon Ball Kai. The series has received up to 35.4 billion views and was influential on its successors. [a] There have also been two sequel series, Dragon Ball GT (1996–1997) and Dragon Ball Super (2015–2018)."
+                android:textColor="#F4EEE8"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/spacethree"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/txtalpha" />
+
+
+            <Button
+                android:id="@+id/homep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_200"
+                android:textSize="14sp"
+                android:text="Go Back To Home Page And Explore it more"
+                android:layout_below="@id/spacethree"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

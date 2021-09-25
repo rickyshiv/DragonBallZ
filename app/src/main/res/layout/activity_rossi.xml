@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blues"
+    tools:context=".rossi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/back_btn6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#511281"
+            android:textAlignment="center"
+            android:textSize="40sp"
+
+            android:text="BEST FIGHTS"
+            android:textColor="#ffffff"
+            android:textStyle="normal" />
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/back_btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+
+                    android:text="Goku vs Goku Black (Zamasu)"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:showYouTubeButton="true"
+                    app:showSeekBar="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    app:videoId="fell5nlI-jo"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/r1"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+
+                    android:text="Goku vs Beerus"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:showYouTubeButton="true"
+                    app:showSeekBar="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    app:videoId="lbdnlRL0yAQ"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/r2"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+
+                    android:text="Goku vs Brolly"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:showYouTubeButton="true"
+                    app:showSeekBar="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    app:videoId="QliBzkT2k-c"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/r4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/r3"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+
+                    android:text="Goku vs Vegeta"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:showYouTubeButton="true"
+                    app:showSeekBar="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    app:videoId="Amel2u2ishA"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/r4"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+
+                    android:text="vigito vs majin buu"
+                    android:textColor="#ffffff"
+                    android:textStyle="normal" />
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:showYouTubeButton="true"
+                    app:showSeekBar="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    app:videoId="Ahod0k5fJrs"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="false" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgLow"
+                android:layout_width="144dp"
+                android:layout_height="94dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="49dp"></ImageView>
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="#511281"
+                android:textSize="20sp"
+                android:text="GO TO HOME PAGE AND EXPLORE IT"
+                android:textColor="#ffffff"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

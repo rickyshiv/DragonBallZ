@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    tools:context=".MessageActivity">
+    <ImageView
+        android:id="@+id/imgBlackPanther"
+        android:layout_width="350dp"
+
+        android:layout_height="350dp"
+        android:src="@drawable/logof"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="8dp"
+        android:textSize="49sp"
+        android:layout_below="@+id/imgBlackPanther"
+        android:text="Your message screen is blank"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to RK INDUSTRIES"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:id="@+id/txtLayoutHeader"
+        android:textSize="20sp"
+        android:textColor="#0d4791"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OWNER1 : PRIYA SHIVDASANI"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/txtLayoutHeader"
+        android:id="@+id/txtLayoutSubHeader"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#0d4791"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OWNER2 : HARISH SHIVDASANI"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/txtLayoutSubHeader2"
+        android:layout_below="@id/txtLayoutSubHeader"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#0d4791"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEO:RICKY SHIVDASANI"
+        android:id="@+id/txtLayoutSubHeader3"
+        android:layout_below="@id/txtLayoutSubHeader2"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#0d4791"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:id="@+id/img"
+        android:layout_below="@id/txtLayoutSubHeader3"
+        android:layout_gravity="center"
+        android:src="@drawable/rk_industries"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_below="@id/img"
+        android:layout_gravity="center"
+        android:id="@+id/btn"
+        android:textSize="10sp"
+        android:text="Hello Click Here to See More About our company"
+
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/et"
+        android:layout_below="@id/btn"
+        android:inputType="text"/>
+
+</RelativeLayout>
